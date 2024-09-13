@@ -1,0 +1,61 @@
+what is nextjs?
+=>nextjs is a react framework for building web applications
+
+what is react?
+=>it's not feasible to create a fully-featured application ready for production react is a library for building user interfaces
+
+nextjs features
+=>it uses react for building user interfaces
+
+=>provide additional features that enable you to build production-ready applications
+
+=>these feature include routing, optimized rendering, data fetching, bundling, compiling, and more
+
+=>you don't need to install additional packages as nextjs provides everyting you need
+
+why learn nextjs?
+=>nextjs simplifies the process of building a web application for production
+1.routing
+2.api routes
+3.rendering
+4.data fetching
+5.styling
+6.optimization
+7.dev and prod build system
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Routing ko samajhne se pahle hame hame ye topic samajhna ho ga
+
+=>React Server Component(RSC)
+
+=>react server component is a new architecture introduced by the react team in version 18 which was quickly embraced by nextjs.
+
+=>The architecture introduces a new way of creating react components, splitting the into two types:
+
+=>the architecture introduces a new way of creating react components, splitting them into two types:
+1.server components.
+2.client componets.
+
+.server components
+-in nextjs all components are server components by default
+-they have the ability to run tasks like reading files or fetching data from a database
+-however, thet don't have the ability to use hooks or handle user interactions
+
+.client components
+-to create a client component, its necessary to add 'use clinet' at the top of the component file
+-client components can't perform tasks like reading files, but they have the ability to use hooks and manage interactions
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Routing in nextjs
+=>nextjs has a file-system based rounting mechanism
+=>URL paths that users can access in the browser are defined by files and folders in your codebase
+
+Routing Conventions
+=>all routes must be placed inside the app folder
+=>every file that corresponds to a route must be named page.js or page.tsx
+=>every folder corresponds to a path segment in the browser URL
+
+Nested Routes
+=>jaise hamare pass blog folder hai us ke andar page.tsx hai to agar ham url me /blog likha ga to ham blog path me enter kar jaya ga magar hame blog k andar first me jana hai jaise /blog/first tab hame blog folder k andar ek aur folder banay ga first name se aur uske andar ham page.tsx create kara ga iss se hamara nested route automatically create ho jaya ga
