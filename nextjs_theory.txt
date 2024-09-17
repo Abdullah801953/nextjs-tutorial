@@ -59,3 +59,18 @@ Routing Conventions
 
 Nested Routes
 =>jaise hamare pass blog folder hai us ke andar page.tsx hai to agar ham url me /blog likha ga to ham blog path me enter kar jaya ga magar hame blog k andar first me jana hai jaise /blog/first tab hame blog folder k andar ek aur folder banay ga first name se aur uske andar ham page.tsx create kara ga iss se hamara nested route automatically create ho jaya ga
+
+Dynamic Routes
+=>jab hame dynamic route banana rahata hai tab ham bracket ([]) ka use kart hai uss bracket k andar ham [foldername] likh dete hai aur us folder me page.tsx define karte hai iss se hamara dynamic route create ho jata hai
+
+Nested Dynamic routes
+=>iss me same chez karte hai jo ham dynamic route me keya hai bash firk itna hota hai k hamar route jo ho ga wo dynamic route k andar ho ga aur wo be dynamic ho ga jaise [productId] ke andar [review]
+
+catch-all segments
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Not Found page
+=>nextjs hame by default not found page provide karwata hai
+=>not found page ham kaise banate hai pahle hame notfound page ka namm likhna ho ga jo k aisa ho ga not-found ye aisa he likha jaya ga iss k alawa kuch aur namm nahi ho ga fir ham rfce k badad se functional component banaya ga aur jab bhee ham kise bhee unknown route p jaya ga to hame hamar banaya huwa notfound page mila ga
+
